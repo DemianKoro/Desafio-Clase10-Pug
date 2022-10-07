@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla de Ingreso de Datos en PUG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <a name="ingreso"></a>
+    <h1 style="color:rgb(6, 6, 51);font-family: monospace">Ingrese nuevo Libro</h1>
+    <br>
+
+    <form action="/productos" method="post">
+
+        <div class="form-group">
+            <label for="nombre"><b style="color:rgb(1, 1, 54);">Titulo</b></label>
+            <input id="nombre" class="form-control" value="Ej.Libro" type="text" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="price"><b style="color:rgb(1, 1, 54);">Precio</b></label>
+            <input id="price" class="form-control" value="880" type="number" name="price" required>
+        </div>
+
+        <div class="form-group">
+            <label for="image"><b style="color:rgb(1, 1, 54);">Foto</b></label>
+            <input id="image" class="form-control"
+                value="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png"
+                type="url" name="image" required>
+        </div>
+
+        <button class="btn btn-success mt-3 mb-5">Enviar</button>
+    </form>
+    <h2 style="color:rgb(6, 6, 51);font-family: monospace">Libros ingresados</h2>
+    <a name="productos"></a>
+    <br>
+    <!-- <% if(productos.length > 0){ %>
+    <div class="table-responsive">
+        <table class="table table-dark">
+            <tr style="color: rgb(131, 216, 114);">
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Imagen</th>
+            </tr>
+            <% for (const producto of productos) {%>
+            <tr>
+                <td><%=producto.name%></td>
+                <td>$ <%=producto.price%></td>
+                <td>
+                    <img src="<%=producto.image%>" style="width: 40px;"></img>
+                </td>
+            </tr>
+            <%};%>
+        </table>
+    </div>
+    <% } else{ %>
+    <h3 class="alert alert-danger">no se encontraron datos</h1>
+        <% } %> -->
+        
+        <a href='productos'> <button> ALL PRODUCTS </button> </a>
+</body>
+
+</html>

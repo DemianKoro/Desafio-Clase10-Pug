@@ -1,0 +1,24 @@
+html 
+    include head.pug
+    body.jumbotron
+        div.container
+            h1(style="color:rgb(6, 6, 51);font-family: monospace") Libros ingresados
+            div.table-responsive
+            table.table-dark
+            
+                
+                    tr.encabezado 
+                        th Nombre 
+                        th Precio 
+                        th imagen 
+                    each producto in productos
+                        tr 
+                            td=(producto.name)
+                            td=(producto.price)
+                            td
+                                img(style="width: 40px;" src=(producto.image), alt="")               
+            br
+
+            a(href='/') 
+                button VOLVER A CARGAR PRODUCTO 
+

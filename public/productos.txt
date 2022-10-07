@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Werewolf",
+    "price": 700,
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Werewolf-512.png",
+    "id": 1
+  },
+  {
+    "name": "Witches",
+    "price": 915,
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Sorceress-512.png",
+    "id": 2
+  },
+  {
+    "name": "Farenheit 451",
+    "price": 645,
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Destructive_Magic-512.png",
+    "id": 3
+  },
+  {
+    "name": "Wild Cards",
+    "price": 979,
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Fairy-512.png",
+    "id": 4
+  },
+  {
+    "name": "Centauro",
+    "price": 600,
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Centaur-512.png",
+    "id": 5
+  },
+  {
+    "name": "Ej.Libro",
+    "price": "880",
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png",
+    "id": 6
+  },
+  {
+    "name": "Ej.Libro",
+    "price": "880",
+    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png",
+    "id": 7
+  }
+]
