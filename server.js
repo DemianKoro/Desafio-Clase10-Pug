@@ -24,7 +24,7 @@ app.get('/', async (req, res) => {
 
 app.post('/productos', async (req, res) => {
     const producto = req.body
-    // const productoNuevo = await saveProducto(producto).catch()
+    const productoNuevo = await saveProducto(producto).catch()
     console.log(producto)
     const productos = await getProductos().catch();
     console.log(productos)

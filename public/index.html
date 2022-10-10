@@ -11,59 +11,35 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="jumbotron">
     <a name="ingreso"></a>
     <h1 style="color:rgb(6, 6, 51);font-family: monospace">Ingrese nuevo Libro</h1>
     <br>
 
-    <form action="/productos" method="post">
+    <div class="container mt-3">
 
-        <div class="form-group">
-            <label for="nombre"><b style="color:rgb(1, 1, 54);">Titulo</b></label>
-            <input id="nombre" class="form-control" value="Ej.Libro" type="text" name="name" required>
-        </div>
+        <form action="/productos" method="post">
 
-        <div class="form-group">
-            <label for="price"><b style="color:rgb(1, 1, 54);">Precio</b></label>
-            <input id="price" class="form-control" value="880" type="number" name="price" required>
-        </div>
+            <div class="form-group">
+                <label for="nombre"><b style="color:rgb(1, 1, 54);">Titulo</b></label>
+                <input id="nombre" class="form-control" value="Ej.Libro" type="text" name="name" required>
+            </div>
 
-        <div class="form-group">
-            <label for="image"><b style="color:rgb(1, 1, 54);">Foto</b></label>
-            <input id="image" class="form-control"
-                value="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png"
-                type="url" name="image" required>
-        </div>
+            <div class="form-group">
+                <label for="price"><b style="color:rgb(1, 1, 54);">Precio</b></label>
+                <input id="price" class="form-control" value="890" type="number" name="price" required>
+            </div>
 
-        <button class="btn btn-success mt-3 mb-5">Enviar</button>
-    </form>
-    <h2 style="color:rgb(6, 6, 51);font-family: monospace">Libros ingresados</h2>
-    <a name="productos"></a>
-    <br>
-    <!-- <% if(productos.length > 0){ %>
-    <div class="table-responsive">
-        <table class="table table-dark">
-            <tr style="color: rgb(131, 216, 114);">
-                <th>Nombre</th>
-                <th>Precio</th>
-                <th>Imagen</th>
-            </tr>
-            <% for (const producto of productos) {%>
-            <tr>
-                <td><%=producto.name%></td>
-                <td>$ <%=producto.price%></td>
-                <td>
-                    <img src="<%=producto.image%>" style="width: 40px;"></img>
-                </td>
-            </tr>
-            <%};%>
-        </table>
+            <div class="form-group">
+                <label for="image"><b style="color:rgb(1, 1, 54);">Foto</b></label>
+                <input id="image" class="form-control"
+                    value="https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png"
+                    type="url" name="image" required>
+            </div>
+
+            <button class="btn btn-success mt-3 mb-5">Enviar</button>
+        </form>
     </div>
-    <% } else{ %>
-    <h3 class="alert alert-danger">no se encontraron datos</h1>
-        <% } %> -->
-        
-        <a href='productos'> <button> ALL PRODUCTS </button> </a>
 </body>
 
 </html>

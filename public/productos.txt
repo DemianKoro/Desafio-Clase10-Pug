@@ -28,17 +28,5 @@
     "price": 600,
     "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Centaur-512.png",
     "id": 5
-  },
-  {
-    "name": "Ej.Libro",
-    "price": "880",
-    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png",
-    "id": 6
-  },
-  {
-    "name": "Ej.Libro",
-    "price": "880",
-    "image": "https://cdn3.iconfinder.com/data/icons/fantasy-and-role-play-game-adventure-quest/512/Spell_Book-512.png",
-    "id": 7
   }
 ]
